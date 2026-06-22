@@ -4,6 +4,7 @@ import type {
   Mesocycle,
   Day,
   PlannedExercise,
+  WeekPrescription,
   Session,
   SetLog,
 } from "./types";
@@ -15,6 +16,7 @@ export class GarageDB extends Dexie {
   mesocycles!: Table<Mesocycle, string>;
   days!: Table<Day, string>;
   plannedExercises!: Table<PlannedExercise, string>;
+  weekPrescriptions!: Table<WeekPrescription, string>;
   sessions!: Table<Session, string>;
   sets!: Table<SetLog, string>;
 
@@ -27,6 +29,11 @@ export class GarageDB extends Dexie {
       plannedExercises: "id, dayId, exerciseId, order",
       sessions: "id, mesoId, dayId, week, date",
       sets: "id, sessionId, plannedExerciseId, exerciseId",
+    });
+    // v2 adds per-week prescriptions and a source index on mesocycles.
+    this.version(2).stores({
+      mesocycles: "id, createdAt, archived, source",
+      weekPrescriptions: "id, plannedExerciseId, week",
     });
   }
 }

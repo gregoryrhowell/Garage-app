@@ -1,15 +1,17 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { seedIfEmpty } from "@/lib/seed";
+import { db } from "@/lib/db";
 
-// Runs the one-time DB seed on the client, then renders the app.
+// Ensures the on-device database is open before rendering the app (IndexedDB
+// is client-only, so we wait for hydration).
 export function SeedGate({ children }: { children: React.ReactNode }) {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    seedIfEmpty()
-      .catch((e) => console.error("seed failed", e))
+    db()
+      .open()
+      .catch((e) => console.error("db open failed", e))
       .finally(() => setReady(true));
   }, []);
 

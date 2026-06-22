@@ -4,6 +4,7 @@ import type {
   Mesocycle,
   Day,
   PlannedExercise,
+  WeekPrescription,
   Session,
   SetLog,
   MuscleGroup,
@@ -54,12 +55,8 @@ export async function addDay(mesoId: string, name: string): Promise<Day> {
 export async function addPlannedExercise(
   dayId: string,
   exerciseId: string,
-  opts: {
-    targetSets?: number;
-    repLow?: number;
-    repHigh?: number;
-    targetRir?: number;
-    note?: string;
+  opts: Partial<Omit<PlannedExercise, "id" | "dayId" | "exerciseId" | "order">> & {
+    order?: number;
   } = {},
 ): Promise<PlannedExercise> {
   const count = await db().plannedExercises.where("dayId").equals(dayId).count();
@@ -67,15 +64,42 @@ export async function addPlannedExercise(
     id: uid(),
     dayId,
     exerciseId,
-    order: count,
+    order: opts.order ?? count,
     targetSets: opts.targetSets ?? 3,
-    repLow: opts.repLow,
-    repHigh: opts.repHigh,
-    targetRir: opts.targetRir,
-    note: opts.note,
+    repTarget: opts.repTarget,
+    rirTarget: opts.rirTarget,
+    altName: opts.altName,
+    tempo: opts.tempo,
+    rest: opts.rest,
+    coachNote: opts.coachNote,
+    videoUrl: opts.videoUrl,
   };
   await db().plannedExercises.add(pe);
   return pe;
+}
+
+export async function setWeekPrescription(
+  plannedExerciseId: string,
+  week: number,
+  presc: { targetSets?: number; repTarget?: string; rirTarget?: string },
+): Promise<WeekPrescription> {
+  const wp: WeekPrescription = {
+    id: uid(),
+    plannedExerciseId,
+    week,
+    ...presc,
+  };
+  await db().weekPrescriptions.add(wp);
+  return wp;
+}
+
+export async function getWeekPrescriptions(
+  plannedExerciseId: string,
+): Promise<WeekPrescription[]> {
+  return db()
+    .weekPrescriptions.where("plannedExerciseId")
+    .equals(plannedExerciseId)
+    .toArray();
 }
 
 export async function getDays(mesoId: string): Promise<Day[]> {
@@ -117,7 +141,13 @@ export async function startOrResumeSession(
   const planned = await getPlannedExercises(dayId);
   const rows: SetLog[] = [];
   for (const pe of planned) {
-    for (let i = 0; i < pe.targetSets; i++) {
+    const wp = await db()
+      .weekPrescriptions.where("plannedExerciseId")
+      .equals(pe.id)
+      .and((w) => w.week === week)
+      .first();
+    const setCount = wp?.targetSets ?? pe.targetSets;
+    for (let i = 0; i < setCount; i++) {
       rows.push({
         id: uid(),
         sessionId: session.id,

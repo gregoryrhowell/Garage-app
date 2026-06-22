@@ -21,17 +21,16 @@ export function PlanEditor({ dayId }: { dayId: string }) {
   const [name, setName] = useState("");
   const [muscle, setMuscle] = useState<MuscleGroup>("Chest");
   const [sets, setSets] = useState(3);
-  const [repLow, setRepLow] = useState(8);
-  const [repHigh, setRepHigh] = useState(12);
+  const [repTarget, setRepTarget] = useState("8-12");
+  const [rirTarget, setRirTarget] = useState("2");
 
   async function add() {
     if (!name.trim()) return;
     const ex = await getOrCreateExercise(name, muscle);
     await addPlannedExercise(dayId, ex.id, {
       targetSets: sets,
-      repLow,
-      repHigh,
-      targetRir: 2,
+      repTarget: repTarget.trim() || undefined,
+      rirTarget: rirTarget.trim() || undefined,
     });
     setName("");
   }
@@ -51,7 +50,8 @@ export function PlanEditor({ dayId }: { dayId: string }) {
             {nameById.get(pe.exerciseId) ?? "Exercise"}
             <span className="text-muted">
               {" · "}
-              {pe.targetSets}×{pe.repLow}-{pe.repHigh}
+              {pe.targetSets}
+              {pe.repTarget ? `×${pe.repTarget}` : ""}
             </span>
           </span>
           <button
@@ -103,22 +103,22 @@ export function PlanEditor({ dayId }: { dayId: string }) {
           <div className="flex items-center gap-1">
             <input
               className="input text-center"
-              type="number"
-              min={1}
-              value={repLow}
-              onChange={(e) => setRepLow(Number(e.target.value) || 1)}
-              aria-label="Rep range low"
-            />
-            <span className="text-muted">–</span>
-            <input
-              className="input text-center"
-              type="number"
-              min={1}
-              value={repHigh}
-              onChange={(e) => setRepHigh(Number(e.target.value) || 1)}
-              aria-label="Rep range high"
+              value={repTarget}
+              onChange={(e) => setRepTarget(e.target.value)}
+              placeholder="8-12"
+              aria-label="Rep target"
             />
             <span className="text-muted">reps</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <input
+              className="input text-center"
+              value={rirTarget}
+              onChange={(e) => setRirTarget(e.target.value)}
+              placeholder="2"
+              aria-label="RIR target"
+            />
+            <span className="text-muted">RIR</span>
           </div>
           <button className="btn-accent" onClick={add}>
             + Add

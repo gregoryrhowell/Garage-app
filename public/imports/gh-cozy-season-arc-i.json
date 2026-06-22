@@ -1,0 +1,1882 @@
+{
+  "source": "GH Cozy Season Arc I",
+  "name": "GH Cozy Season Arc I",
+  "weeks": 3,
+  "days": [
+    {
+      "name": "Chest / Shoulders / Triceps",
+      "exercises": [
+        {
+          "order": 1,
+          "name": "Hammer Strength Shoulder Press OR Machine if its easier on joints",
+          "muscleGroup": "Shoulders",
+          "altName": "Hammer Strength Shoulder Press",
+          "tempo": "2-1-0-1",
+          "rest": "2 - 3 min",
+          "videoUrl": "https://youtu.be/8EgilJIJMJk?si=W7R-Teh9g2hilaUm",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "repTarget": "8-12",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 115,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 11,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 10,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "repTarget": "8-12",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 90,
+                  "reps": 14,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 115,
+                  "reps": 9,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 8,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "repTarget": "8-12",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 90,
+                  "reps": 15
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 115,
+                  "reps": 11
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Hammer Incline Press or Incline Machine Similar",
+          "muscleGroup": "Chest",
+          "altName": "Hammer Incline Press",
+          "tempo": "3-1-0-1",
+          "rest": "2 - 3 min",
+          "coachNote": "check ego and use weights that feel good on joints; shift rep range if needed",
+          "videoUrl": "https://youtu.be/NptVolxCHk4",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 4,
+              "repTarget": "8-12",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 90,
+                  "reps": 11,
+                  "rir": 3
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 115,
+                  "reps": 9,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 115,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 3,
+                  "weight": 90,
+                  "reps": 11,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 4,
+              "repTarget": "8-12",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 90,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 115,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 3,
+                  "weight": 90,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 4,
+              "repTarget": "8-12",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 115,
+                  "reps": 10
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 125,
+                  "reps": 8
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 6
+                },
+                {
+                  "setIndex": 3,
+                  "weight": 90,
+                  "reps": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "High Grip Pec Fly (if you don't like these lmk)",
+          "muscleGroup": "Chest",
+          "altName": "High grip pec fly variation, I do these pec deck exercises back to back SHAWCOLLECTIVE.org - YouTube",
+          "tempo": "3-1-0-1",
+          "rest": "2-3 min",
+          "coachNote": "Control the Negative; I am more concerned with pattern and not feeling it extra in the joints and low back this block; Check the ego w/weight",
+          "videoUrl": "https://youtube.com/shorts/awuOSpgV1R0?si=RGev1SIfR5Zhokj2",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 4,
+              "repTarget": "12-15",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 160,
+                  "reps": 13,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 160,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 145,
+                  "reps": 13,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 3,
+                  "weight": 145,
+                  "reps": 12,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 4,
+              "repTarget": "12-15",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 145,
+                  "reps": 15,
+                  "rir": 3
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 165,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 165,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 3,
+                  "weight": 160,
+                  "reps": 12,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 4,
+              "repTarget": "12-15",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 205,
+                  "reps": 8
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 8
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Favorite Tricep Movement of Choice",
+          "muscleGroup": "Triceps",
+          "altName": "play movement",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 2,
+              "repTarget": "8+",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 72.5,
+                  "reps": 14,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 72.5,
+                  "reps": 13,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 2,
+              "repTarget": "8+",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 72.5,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 92.5,
+                  "reps": 11,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 2,
+              "repTarget": "8+",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 80,
+                  "reps": 11
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 88,
+                  "reps": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Incline DB Tricep Extension",
+          "muscleGroup": "Triceps",
+          "altName": "How to - Incline Dumbbell Tricep Extension",
+          "tempo": "3-0-0-1",
+          "coachNote": "focus on big contraction-feeling throughout the muscle and not weight overstressing joints",
+          "videoUrl": "https://youtu.be/ZdJLCkmNvo0",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 4,
+              "repTarget": "12-15",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 32.5,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 32.5,
+                  "reps": 12
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 32.5
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 4,
+              "repTarget": "12-15",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 70,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 70,
+                  "reps": 13,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 70,
+                  "reps": 11,
+                  "rawReps": "11-2",
+                  "myoReps": [
+                    2
+                  ]
+                },
+                {
+                  "setIndex": 3,
+                  "reps": 10,
+                  "rawReps": "10-2",
+                  "myoReps": [
+                    2
+                  ],
+                  "label": "Myo-Reps"
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 4,
+              "repTarget": "12-15",
+              "rirTarget": "0-1",
+              "sets": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quads",
+      "exercises": [
+        {
+          "order": 1,
+          "name": "Seated ADDuctors",
+          "muscleGroup": "Quads",
+          "altName": "How To Use The Seated Thigh Adduction (Hip Adduction) Machine",
+          "tempo": "2-1-0-1",
+          "rest": "2 - 3 min",
+          "videoUrl": "https://youtu.be/CjAVezAggkI?si=w2Vt8iJ7c0fSmRHa",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 2,
+              "repTarget": "15-20",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 190,
+                  "reps": 15
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 16
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 2,
+              "repTarget": "15-20",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 190,
+                  "reps": 16
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 17
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 2,
+              "repTarget": "15-20",
+              "rirTarget": "1-2",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Leg Press",
+          "muscleGroup": "Quads",
+          "altName": "The Ultimate Leg Workout for Mass | NPC Bodybuilder Justin Shier",
+          "tempo": "3-0-0-1",
+          "rest": "2 - 3 min",
+          "coachNote": "pay attention to depth and control here",
+          "videoUrl": "https://youtu.be/hUoRO8Tg7j0?si=m_pXl42O7lBseQXN&t=1134",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 4,
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 440,
+                  "reps": 13,
+                  "rawRir": "RPE 8"
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 530,
+                  "reps": 10,
+                  "rawRir": "RPE 8"
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 530,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 3,
+                  "weight": 530,
+                  "reps": 9,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 4,
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 530,
+                  "reps": 8,
+                  "rawRir": "RPE 8"
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 9,
+                  "rawRir": "RPE 8"
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 8,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 3,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 4,
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "reps": 5,
+                  "rawReps": "5-7",
+                  "rawRir": "RPE 8"
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 8,
+                  "rawReps": "8-12",
+                  "rawRir": "RPE 8"
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 8,
+                  "rawReps": "8-12"
+                },
+                {
+                  "setIndex": 3,
+                  "reps": 12,
+                  "rawReps": "12-15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Forward Tilt Leg Extension",
+          "muscleGroup": "Quads",
+          "altName": "You NEED to do your LEG EXTENSIONS like this! - YouTube",
+          "tempo": "3-1-0-1",
+          "rest": "1 - 2 min",
+          "videoUrl": "https://youtube.com/shorts/fP6uMgfwqOA?si=srmBja9WCgXjqKad",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "repTarget": "12-15",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 150,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 150,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 150
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "repTarget": "12-15",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 150,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 150,
+                  "reps": 14,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 150,
+                  "reps": 12,
+                  "rawReps": "12.4.2",
+                  "myoReps": [
+                    4,
+                    2
+                  ]
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "repTarget": "12-15",
+              "rirTarget": "1-2",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Supported Bulgarians (shins stay vertical/perpendicular to the floor, very glute focused)",
+          "muscleGroup": "Glutes",
+          "tempo": "2-1-0-1",
+          "rest": "2 - 3 min",
+          "coachNote": "The more you pronate the foot the more you internally rotate the hip the stronger you propel and drive off the ground",
+          "videoUrl": "https://youtu.be/I1Ee3M6SDgQ",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 70,
+                  "reps": 9,
+                  "rir": 3
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 10,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 75,
+                  "reps": 9,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 9,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 8,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "reps": 8,
+                  "rawReps": "8-10",
+                  "rawRir": "2-3"
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 8,
+                  "rawReps": "8-10",
+                  "rawRir": "2-3"
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 12,
+                  "rawReps": "12-15",
+                  "rawRir": "1-2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Seated Ab Machine of Choice",
+          "muscleGroup": "Abs",
+          "altName": "Abdominal Crunch Machine",
+          "tempo": "2-0-0-1",
+          "rest": "2-3 min",
+          "videoUrl": "https://youtu.be/fuPFq2EYswE?si=DwGMBe_Exfu9DlSN",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 2,
+              "repTarget": "15-20",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 30,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 35,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 35,
+                  "reps": 12
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 2,
+              "repTarget": "15-20",
+              "rirTarget": "1-2",
+              "sets": []
+            },
+            {
+              "week": 3,
+              "targetSets": 2,
+              "repTarget": "15-20",
+              "rirTarget": "1-2",
+              "sets": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Back and Bis",
+      "exercises": [
+        {
+          "order": 1,
+          "name": "Straight Arm PullOver",
+          "muscleGroup": "Back",
+          "altName": "Exercise Index - Straight Arm Pulldown Pushdown",
+          "tempo": "2-0-0-1",
+          "rest": "2-2+ minutes",
+          "coachNote": "Primer",
+          "videoUrl": "https://youtu.be/_ZsprFzatDo?si=TKhIS93Q3DKlk9B2",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "repTarget": "12-15",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 72.5,
+                  "reps": 13,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 72.5,
+                  "reps": 14,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 72.5,
+                  "reps": 12,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "repTarget": "12-15",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 72.5,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 12,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "repTarget": "12-15",
+              "rirTarget": "1-2",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Hammer High Row (elbows high 70 degrees for upper back)",
+          "muscleGroup": "Back",
+          "altName": "Hammer Strength Iso Lateral Rows - King 👑 of The Back Machines - YouTube",
+          "tempo": "3-0-0-1",
+          "rest": "3+",
+          "coachNote": "focus on big contraction-feeling throughout the muscle and not weight overstressing joints",
+          "videoUrl": "https://youtube.com/shorts/mDPG9XzGaMY?si=BR5YZXr770KQoAFm",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "repTarget": "8-12",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 90,
+                  "reps": 11,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 11,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "repTarget": "8-10",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 100,
+                  "reps": 11,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 11,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 11,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "repTarget": "8-10",
+              "rirTarget": "1-2",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Meadows Rows (piston style reps) - pull mid-back/lower rhomboid here",
+          "muscleGroup": "Back",
+          "tempo": "2-1-0-1",
+          "rest": "2-2+ min",
+          "coachNote": "Constant Tension -Big Squeeze on Back",
+          "videoUrl": "https://youtube.com/shorts/1g3spuGJuEY?si=PBpdQ41TctnROkSb",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 2,
+              "repTarget": "12-15",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 90,
+                  "reps": 12,
+                  "rir": 0
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 90,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 90,
+                  "reps": 11,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 2,
+              "repTarget": "12-15",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 90,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 90,
+                  "reps": 15,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 2,
+              "repTarget": "12-15",
+              "rirTarget": "1-2",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Cable Low Rows",
+          "muscleGroup": "Back",
+          "altName": "Exercise Index - Cable Low Rows",
+          "tempo": "3-0-0-1",
+          "coachNote": "constant tension; pay attention to hand transition on the squeeze",
+          "videoUrl": "https://youtu.be/Nqc66USO9oI?si=7Jp2mHlxhs47Xjf5",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "repTarget": "10-12",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 160,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 160,
+                  "reps": 10
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 160,
+                  "reps": 10,
+                  "rawReps": "10-2",
+                  "myoReps": [
+                    2
+                  ]
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "repTarget": "10-12",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 160,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 180,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 180,
+                  "reps": 10,
+                  "rawReps": "10.2",
+                  "myoReps": [
+                    2
+                  ]
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "repTarget": "10-12",
+              "rirTarget": "0-1",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "BB Curls (keeping these)",
+          "muscleGroup": "Biceps",
+          "altName": "Barbell Curl Normal Grip",
+          "tempo": "2-0-0-1",
+          "coachNote": "constant tension",
+          "videoUrl": "https://youtu.be/JnLFSFurrqQ?si=-tj2mjmqTdJB13eP",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 4,
+              "repTarget": "RX",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 110,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 155,
+                  "reps": 5,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 155,
+                  "reps": 5,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 3,
+                  "weight": 110,
+                  "reps": 15,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 4,
+              "repTarget": "RX",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 150,
+                  "reps": 6,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 6,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 120,
+                  "reps": 10,
+                  "rir": 0
+                },
+                {
+                  "setIndex": 3,
+                  "reps": 1,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 4,
+              "repTarget": "RX",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "reps": 5,
+                  "rawReps": "5-7"
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 5,
+                  "rawReps": "5-7"
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 12,
+                  "rawReps": "12-15"
+                },
+                {
+                  "setIndex": 3,
+                  "reps": 12,
+                  "rawReps": "12-15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Seated Ab Machine of Choice",
+          "muscleGroup": "Abs",
+          "altName": "Abdominal Crunch Machine",
+          "tempo": "4-0-0-1",
+          "rest": "2-3 min",
+          "videoUrl": "https://youtu.be/fuPFq2EYswE?si=DwGMBe_Exfu9DlSN",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 1,
+              "repTarget": "15-20",
+              "rirTarget": "0",
+              "sets": []
+            },
+            {
+              "week": 2,
+              "targetSets": 1,
+              "repTarget": "15-20",
+              "rirTarget": "0",
+              "sets": []
+            },
+            {
+              "week": 3,
+              "targetSets": 1,
+              "repTarget": "15-20",
+              "rirTarget": "0",
+              "sets": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hams / Glutes",
+      "exercises": [
+        {
+          "order": 1,
+          "name": "Seated Leg Curls (single leg) Extension set via partials",
+          "muscleGroup": "Hamstrings",
+          "altName": "Seated Leg Curl",
+          "tempo": "3-1-0-1",
+          "rest": "2-3 min",
+          "coachNote": "Each set after doing your reps to rir; do partials until (1) rir : Do as many reps as needed: Fill that shit with blood",
+          "videoUrl": "https://youtu.be/Orxowest56U",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "repTarget": "10-12",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 150,
+                  "reps": 7,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 150,
+                  "reps": 6,
+                  "rir": 0
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 130,
+                  "reps": 8,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "repTarget": "10-12",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 150,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 160,
+                  "reps": 8,
+                  "rir": 0
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 150,
+                  "reps": 9,
+                  "rawReps": "9.2",
+                  "myoReps": [
+                    2
+                  ],
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "repTarget": "10-12",
+              "rirTarget": "0-1",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 130,
+                  "reps": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Leg Press (ham/glute biased)",
+          "muscleGroup": "Glutes",
+          "tempo": "2-0-0-1",
+          "rest": "2+ min",
+          "coachNote": "Leg Press For Glutes And Hamstrings",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "repTarget": "8-12",
+              "rirTarget": "3-4",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 530,
+                  "reps": 9,
+                  "rir": 3
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 530,
+                  "reps": 9,
+                  "rir": 3
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 530,
+                  "reps": 8
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "repTarget": "8-12",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 530,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 530,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 440,
+                  "reps": 12,
+                  "rir": 2
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "repTarget": "8-12",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 530,
+                  "reps": 10
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 10
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Piston Style Stiff Leg Deadlifts (Use DB's)",
+          "muscleGroup": "Hamstrings",
+          "altName": "Grow your Glutes and Hamstrings with this unreal leg Workout",
+          "rest": "2 - 3 min",
+          "videoUrl": "https://youtu.be/tVreM50mdHM?si=j_EhPrYelhy_IE00",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "repTarget": "12-20",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 115,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 115,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 90,
+                  "reps": 11,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "repTarget": "12-20",
+              "rirTarget": "1-2",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 115,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 10,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "repTarget": "12-20",
+              "rirTarget": "1-2",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Glute Focused Hypers",
+          "muscleGroup": "Glutes",
+          "altName": "Find a weight you can sustain across all 5 sets",
+          "tempo": "2-0-0-1",
+          "rest": "30 seconds",
+          "coachNote": "Glute and Hamstring Focused Hyper Extensions👇🏼🔥👆🏻.SAVE this for your next leg day finisher! - YouTube",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 5,
+              "repTarget": "10",
+              "rirTarget": "1",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 90
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 90,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 5,
+              "repTarget": "10",
+              "rirTarget": "1",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 120,
+                  "reps": 15
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 150,
+                  "reps": 10
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 150,
+                  "reps": 10
+                },
+                {
+                  "setIndex": 3,
+                  "weight": 150,
+                  "reps": 10
+                },
+                {
+                  "setIndex": 4,
+                  "weight": 150,
+                  "reps": 10
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 5,
+              "repTarget": "10",
+              "rirTarget": "1",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Rope Crunch",
+          "muscleGroup": "Abs",
+          "tempo": "2-0-0-2",
+          "rest": "2-3 min",
+          "coachNote": "extension into flexion",
+          "videoUrl": "https://youtu.be/6GMKPQVERzw",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 1,
+              "repTarget": "15-20",
+              "rirTarget": "0-1",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 97.5,
+                  "reps": 15,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 1,
+              "repTarget": "15-20",
+              "rirTarget": "0",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 97.5,
+                  "reps": 15
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 1,
+              "repTarget": "15-20",
+              "rirTarget": "0",
+              "sets": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accessory",
+      "exercises": [
+        {
+          "order": 1,
+          "name": "Hammer Pulldown Underhand (single arm)",
+          "muscleGroup": "Back",
+          "altName": "Hammer Strength Supinated Pulldown",
+          "tempo": "2-0-0-1",
+          "rest": "2-3 min",
+          "coachNote": "lets do inside shoulder width but make sure it doesnt hurt/feels comfortable",
+          "videoUrl": "https://youtu.be/NVVODGCd5xE?si=E9kjWVIGO_tQC7k6",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 2,
+              "repTarget": "12-15",
+              "rirTarget": "0-1",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 70,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 80,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 2,
+              "repTarget": "12-15",
+              "rirTarget": "0-1",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 70,
+                  "reps": 15
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 80,
+                  "reps": 12
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 2,
+              "repTarget": "12-15",
+              "rirTarget": "0-1",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Incline DB FacePulls",
+          "muscleGroup": "Back",
+          "altName": "Incline Dumbbell Facepull",
+          "tempo": "2-1-0-1",
+          "rest": "2-3 min",
+          "videoUrl": "https://youtu.be/90cE3rCLtmo?si=XhmpFyjx5NTlbqP3",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 2,
+              "repTarget": "8-12",
+              "rirTarget": "0-1",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 65,
+                  "reps": 13,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 65,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 65,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 2,
+              "repTarget": "8-12",
+              "rirTarget": "0-1",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 62,
+                  "reps": 14
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 67,
+                  "reps": 14
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 72,
+                  "reps": 9
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 2,
+              "repTarget": "8-12",
+              "rirTarget": "0-1",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Machine Preacher Curl",
+          "muscleGroup": "Biceps",
+          "tempo": "2-0-0-1",
+          "rest": "2-3 min",
+          "coachNote": "let's keep these",
+          "videoUrl": "https://youtu.be/Ja6ZlIDONac?si=SOrm4gReKsbsC4dJ",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 4,
+              "repTarget": "8-10",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 130,
+                  "reps": 11,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 140,
+                  "reps": 9,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 115,
+                  "reps": 9,
+                  "rawReps": "9.4.1",
+                  "myoReps": [
+                    4,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 4,
+              "repTarget": "8-10",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 130,
+                  "reps": 11
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 140,
+                  "reps": 7
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 8
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 4,
+              "repTarget": "8-10",
+              "rirTarget": "1-2",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Hammer Decline Press or Similar Machine",
+          "muscleGroup": "Chest",
+          "altName": "Hammer Strength Decline Press - YouTube",
+          "tempo": "2-1-0-1",
+          "rest": "2-3 min",
+          "coachNote": "These should feel challenging after training to failure on push day; check ego with weight",
+          "videoUrl": "https://youtube.com/shorts/d16UiDrv8o8?si=9a8hxgFo8aMwJfJB",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "repTarget": "7-10",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 270,
+                  "reps": 11,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "repTarget": "7-10",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 270,
+                  "reps": 12
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 290,
+                  "reps": 9
+                },
+                {
+                  "setIndex": 2,
+                  "reps": 8
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "repTarget": "7-10",
+              "rirTarget": "0-2",
+              "sets": []
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Play Tricep Exercise (choose new movement)",
+          "muscleGroup": "Triceps",
+          "altName": "Top \"7\" Triceps exercises (For BIGGER Arms)",
+          "tempo": "2-0-0-1",
+          "rest": "2-3 min",
+          "coachNote": "pick anyone: Have fun!",
+          "videoUrl": "https://youtu.be/gIT0iAv_Sas?si=mBK-qlhsSpmwAqLd",
+          "weeks": [
+            {
+              "week": 1,
+              "targetSets": 3,
+              "repTarget": "12-15",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 65,
+                  "reps": 15,
+                  "rir": 3
+                },
+                {
+                  "setIndex": 1,
+                  "weight": 72,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "setIndex": 2,
+                  "weight": 80,
+                  "reps": 12,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "targetSets": 3,
+              "repTarget": "12-15",
+              "rirTarget": "2-3",
+              "sets": [
+                {
+                  "setIndex": 0,
+                  "weight": 80,
+                  "reps": 12
+                },
+                {
+                  "setIndex": 1,
+                  "reps": 12
+                }
+              ]
+            },
+            {
+              "week": 3,
+              "targetSets": 3,
+              "repTarget": "12-15",
+              "rirTarget": "1-2",
+              "sets": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "coach": "jncoachingprinciples@gmail.com",
+  "note": "Imported from Google Sheets. Record one working set per exercise for review. Every 2-3 training days take a Zone 2 off day (30-60 min)."
+}

@@ -30,9 +30,14 @@ export default function HomePage() {
           <h1 className="text-2xl font-bold tracking-tight">Garage</h1>
           <p className="text-sm text-muted">Your mesocycles</p>
         </div>
-        <button className="btn-accent" onClick={() => setShowNew((s) => !s)}>
-          {showNew ? "Cancel" : "+ New"}
-        </button>
+        <div className="flex gap-2">
+          <Link href="/import" className="btn-ghost">
+            Import
+          </Link>
+          <button className="btn-accent" onClick={() => setShowNew((s) => !s)}>
+            {showNew ? "Cancel" : "+ New"}
+          </button>
+        </div>
       </header>
 
       {showNew && (
@@ -67,7 +72,8 @@ export default function HomePage() {
       <div className="space-y-3">
         {mesos?.length === 0 && (
           <p className="text-center text-muted">
-            No mesocycles yet. Tap “+ New” to start one.
+            No mesocycles yet. Tap “Import” to bring in a spreadsheet, or “+ New”
+            to start one from scratch.
           </p>
         )}
         {mesos?.map((m) => (
@@ -75,7 +81,9 @@ export default function HomePage() {
             <div className="flex items-center justify-between">
               <div>
                 <div className="font-semibold">{m.name}</div>
-                <div className="text-sm text-muted">{m.weeks} weeks</div>
+                <div className="text-sm text-muted">
+                  {m.weeks} weeks{m.source && " · imported"}
+                </div>
               </div>
               <span className="text-2xl text-muted">›</span>
             </div>

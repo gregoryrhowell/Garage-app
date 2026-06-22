@@ -10,7 +10,7 @@ import {
   removeSet,
   updateSet,
 } from "@/lib/repo";
-import type { SetLog } from "@/lib/types";
+import type { SetLog, WeekPrescription } from "@/lib/types";
 
 export default function SessionPage({
   params,
@@ -41,6 +41,14 @@ export default function SessionPage({
     () => db().sets.where("sessionId").equals(id).toArray(),
     [id],
   );
+  // This week's prescription per planned exercise (overrides the default).
+  const prescriptions = useLiveQuery(
+    async () => {
+      if (!session) return [] as WeekPrescription[];
+      return db().weekPrescriptions.where("week").equals(session.week).toArray();
+    },
+    [session?.week],
+  );
   // Previous week's sets for the same day, to show a "last time" reference.
   const prevSets = useLiveQuery(
     async () => {
@@ -58,6 +66,11 @@ export default function SessionPage({
   const nameById = useMemo(
     () => new Map((exercises ?? []).map((e) => [e.id, e.name])),
     [exercises],
+  );
+
+  const prescByPlanned = useMemo(
+    () => new Map((prescriptions ?? []).map((p) => [p.plannedExerciseId, p])),
+    [prescriptions],
   );
 
   const setsByPlanned = useMemo(() => {
@@ -110,17 +123,42 @@ export default function SessionPage({
         {planned?.map((pe) => {
           const rows = setsByPlanned.get(pe.id) ?? [];
           const prev = prevByPlanned.get(pe.id) ?? [];
+          const presc = prescByPlanned.get(pe.id);
+          const setCount = presc?.targetSets ?? pe.targetSets;
+          const repTarget = presc?.repTarget ?? pe.repTarget;
+          const rirTarget = presc?.rirTarget ?? pe.rirTarget;
           return (
             <section key={pe.id} className="card">
-              <div className="mb-2 flex items-baseline justify-between">
+              <div className="mb-1 flex items-baseline justify-between gap-2">
                 <h2 className="font-semibold">
                   {nameById.get(pe.exerciseId) ?? "Exercise"}
                 </h2>
-                <span className="text-xs text-muted">
-                  target {pe.targetSets}×{pe.repLow}-{pe.repHigh}
-                  {pe.targetRir != null && ` @${pe.targetRir} RIR`}
+                <span className="shrink-0 text-xs text-muted">
+                  {setCount}
+                  {repTarget ? `×${repTarget}` : ""}
+                  {rirTarget ? ` @${rirTarget} RIR` : ""}
                 </span>
               </div>
+
+              {(pe.tempo || pe.rest || pe.coachNote || pe.videoUrl) && (
+                <div className="mb-3 space-y-1 text-xs text-muted">
+                  <div className="flex flex-wrap gap-x-3">
+                    {pe.tempo && <span>Tempo {pe.tempo}</span>}
+                    {pe.rest && <span>Rest {pe.rest}</span>}
+                    {pe.videoUrl && (
+                      <a
+                        href={pe.videoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent"
+                      >
+                        ▶ demo
+                      </a>
+                    )}
+                  </div>
+                  {pe.coachNote && <p className="italic">“{pe.coachNote}”</p>}
+                </div>
+              )}
 
               <div className="mb-1 grid grid-cols-[1.5rem_1fr_1fr_3rem_2rem] items-center gap-2 px-1 text-[10px] uppercase tracking-wide text-muted">
                 <span>#</span>
@@ -178,8 +216,10 @@ function SetRow({
     prev && (prev.weight != null || prev.reps != null)
       ? `${prev.weight ?? "–"}×${prev.reps ?? "–"}`
       : null;
+  const hasMyo = (set.myoReps?.length ?? 0) > 0;
 
   return (
+    <div className="space-y-0.5">
     <div
       className={`grid grid-cols-[1.5rem_1fr_1fr_3rem_2rem] items-center gap-2 rounded-lg px-1 py-1 ${
         set.done ? "bg-accent/10" : ""
@@ -216,7 +256,7 @@ function SetRow({
         className="input px-1 py-2 text-center"
         type="number"
         inputMode="numeric"
-        placeholder="—"
+        placeholder={set.rawRir ?? "—"}
         value={set.rir ?? ""}
         onChange={(e) =>
           updateSet(set.id, {
@@ -237,6 +277,15 @@ function SetRow({
       >
         ✓
       </button>
+    </div>
+      {(hasMyo || set.label) && (
+        <div className="pl-8 text-[10px] text-accent2">
+          {set.label && (
+            <span className="mr-2 uppercase tracking-wide">{set.label}</span>
+          )}
+          {hasMyo && `${set.reps ?? ""}+${set.myoReps!.join("+")} myo`}
+        </div>
+      )}
     </div>
   );
 }
