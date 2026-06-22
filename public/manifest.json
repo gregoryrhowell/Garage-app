@@ -1,0 +1,18 @@
+{
+  "name": "Garage — Workout Tracker",
+  "short_name": "Garage",
+  "description": "Offline-first mesocycle workout tracker.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0e14",
+  "theme_color": "#0b0e14",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
