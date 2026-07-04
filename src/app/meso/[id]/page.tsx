@@ -29,6 +29,13 @@ export default function MesoPage({ params }: { params: Promise<{ id: string }> }
   );
 
   async function start(dayId: string) {
+    // Open an existing session for this day/week (including completed/imported
+    // ones) rather than creating a duplicate; only start fresh if none exists.
+    const existing = sessions?.find((s) => s.dayId === dayId && s.week === week);
+    if (existing) {
+      router.push(`/session/${existing.id}`);
+      return;
+    }
     const s = await startOrResumeSession(id, dayId, week);
     router.push(`/session/${s.id}`);
   }
